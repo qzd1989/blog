@@ -1,0 +1,2 @@
+# windows
+* 如果想同时打开多个数据完全隔离的chrome浏览器,可以创建并复制两个浏览器快捷方式,然后右键打开,修改为`"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\ChromeProfiles\user1" --no-first-run` 和`"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\ChromeProfiles\user2" --no-first-run` 即可
