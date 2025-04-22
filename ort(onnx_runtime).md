@@ -1,0 +1,2 @@
+# windows
+* 如果安装库时报错提示里包含下载失败: `https://parcel.pyke.io/v2/delivery/ortrs/packages/msort-binary/1.20.0/ortrs_static-v1.20.0-aarch64-pc-windows-msvc.tgz`,先把它用迅雷下载下来,然后解压到`C:\onnxruntime`,然后设置环境变量 `ORT_LIB_LOCATION`:`C:\onnxruntime\lib`,这样,库安装时就会自动从本地安装而不用远程下载了,主要是下载容易超时.
