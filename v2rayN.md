@@ -7,3 +7,10 @@
 [Environment]::SetEnvironmentVariable("http_proxy", "http://127.0.0.1:10809", "User")
 [Environment]::SetEnvironmentVariable("https_proxy", "http://127.0.0.1:10809", "User")
 ```
+
+- 删除 powershell 里的代理:
+
+```
+[Environment]::SetEnvironmentVariable("http_proxy", $null, "User")
+[Environment]::SetEnvironmentVariable("https_proxy", $null, "User")
+```
